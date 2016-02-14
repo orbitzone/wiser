@@ -1,0 +1,40 @@
+/* tables */
+.tablesorter {
+	font-family:arial;
+	background-color: #90c0d8;
+	color: #fff;
+	font-size: 8pt;
+	width: 100%;
+	text-align: left;
+}
+#tabela .tablesorter thead tr th, #tabela .tablesorter tfoot tr th {
+	font-size: 8pt;
+	padding: 18px 15px 18px 15px;
+	font-weight: 700;
+}
+#searchMap .tablesorter thead tr th, #searchMap .tablesorter tfoot tr th {
+	font-size: 8pt;
+	padding: 10px;
+	font-weight: 700;
+}
+.tablesorter thead tr {
+	cursor: pointer;
+}
+.tablesorter tbody td {
+	color: #3D3D3D;
+	padding: 15px;
+	border-bottom: 1px solid #cde0e9;
+	background-color: #FFF;
+	vertical-align: top;
+}
+
+.tablesorter thead tr .tablesorter-headerAsc {
+	background: url('../img/asc.gif') no-repeat center right;
+
+}
+.tablesorter thead tr .tablesorter-headerDesc {
+	background: url('../img/desc.gif') no-repeat center right;;
+}
+.tablesorter thead tr .headerSortDown, .tablesorter thead tr .headerSortUp {
+background-color: #8dbdd8;
+}
